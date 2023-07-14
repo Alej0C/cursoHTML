@@ -2,11 +2,11 @@
 
 * {
     font-family: 'Ubuntu', sans-serif;
-    color: white;
 }
 
-body{
+body {
     background-color: #161717;
+    color: white;
 }
 
 .container {
@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     width: 450px;
 }
 
@@ -69,7 +69,7 @@ body{
     cursor: pointer;
 }
 
-.twitter-btn picture{
+.twitter-btn picture {
     width: 35px;
     height: 35px;
     background-color: white;
@@ -79,7 +79,7 @@ body{
     justify-content: center;
 }
 
-.twitter-btn picture img{
+.twitter-btn picture img {
     width: 75%;
 }
 
@@ -113,7 +113,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 20px;
+    gap: 30px;
 }
 
 label {
@@ -129,33 +129,35 @@ label span {
 .section-inputs label input {
     width: 80%;
     background-color: #212121;
-    border: none;
+    border: solid 1px transparent;
     padding: 10px 20px;
     border-radius: 5px;
     outline: none;
     font-size: 14pt;
+    color: white;
 }
 
 label input {
     width: 90%;
     background-color: #212121;
-    border: none;
+    border: solid 1px transparent;
     padding: 10px 20px;
     border-radius: 5px;
     outline: none;
     font-size: 14pt;
     transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+    color: white;
 }
 
 label input:hover {
-    background-color: white;
-    border: solid 1px  #454045;
+    background-color: #454045;
+    border: solid 1px #212121;
     box-shadow: 0 0 4px #eb50ff4f;
 }
 
 label input:focus {
-    background-color: white;
-    border: solid 1px #f3f3f4;
+    background-color: #454045;
+    border: solid 1px #212121;
     box-shadow: 0 0 4px #eb50ff4f;
 }
 
